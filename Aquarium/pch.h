@@ -1,6 +1,6 @@
 /**
 * @file pch.h
-* @author your_name_here
+* @author Jacob Patton
 */
 #ifndef AQUARIUM_PCH_H
 #define AQUARIUM_PCH_H

@@ -1,18 +1,18 @@
 /**
  * @file Aquarium.h
- * @author jake_
+ * @author Jacob Patton
  *
  *
  */
  
 #ifndef AQUARIUM_H
 #define AQUARIUM_H
-
+#include <memory>
 
 
 class Aquarium {
 private:
-     wxBitmap *mBackground;  ///< Background image to use
+     std::unique_ptr<wxBitmap> mBackground;  ///< Background image to use
 public:
     void OnDraw(wxDC *dc);
     Aquarium();

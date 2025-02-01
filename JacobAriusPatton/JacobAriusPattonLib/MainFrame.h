@@ -7,7 +7,6 @@
  
 #ifndef MAINFRAME_H
 #define MAINFRAME_H
-#include "pch.h"
 
 
 class MainFrame : public wxFrame {

@@ -15,6 +15,7 @@ private:
 
 public:
     void Initialize(wxFrame* parent);
+    void OnPaint(wxPaintEvent& event);
 };
 
 

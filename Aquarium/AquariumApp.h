@@ -1,6 +1,6 @@
 /**
 * @file AquariumApp.h
- * @author your_name_here
+ * @author Jacob Patton
  */
 
 #ifndef AQUARIUM_AQUARIUMAPP_H

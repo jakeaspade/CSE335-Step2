@@ -7,7 +7,9 @@ set(SOURCE_FILES temp.cpp
         AquariumView.cpp
         AquariumView.h
         Aquarium.cpp
-        Aquarium.h)
+        Aquarium.h
+        Item.cpp
+        Item.h)
 
 set(wxBUILD_PRECOMP OFF)
 find_package(wxWidgets COMPONENTS core base xrc html xml REQUIRED)

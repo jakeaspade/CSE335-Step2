@@ -1,5 +1,5 @@
 /**
- * @file JacobAriusPattonView.h
+ * @file LeftView.h
  * @author Jacob Patton
  *
  *
@@ -7,7 +7,6 @@
  
 #ifndef JACOBARIUSPATTONVIEW_H
 #define JACOBARIUSPATTONVIEW_H
-
 
 
 class LeftView : public wxWindow{

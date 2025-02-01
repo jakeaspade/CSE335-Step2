@@ -1,5 +1,5 @@
 /**
  * @file temp.cpp
- * @author jake_
+ * @author Jacob Patton
  */
 #include "pch.h"

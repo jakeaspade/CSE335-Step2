@@ -1,6 +1,6 @@
 /**
  * @file MainFrame.cpp
- * @author jake_
+ * @author Jacob Patton
  */
 #include "pch.h"
 #include "MainFrame.h"

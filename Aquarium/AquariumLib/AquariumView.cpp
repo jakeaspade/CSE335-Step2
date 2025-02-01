@@ -1,6 +1,6 @@
 /**
  * @file AquariumView.cpp
- * @author jake_
+ * @author Jacob Patton
  */
 
 #include "pch.h"
@@ -9,8 +9,7 @@
 #include "Aquarium.h"
 
 
-/// An object that describes our aquarium
-    Aquarium  mAquarium;
+
 /**
  * Initialize the aquarium view class.
  * @param parent The parent window for this class

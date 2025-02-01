@@ -1,8 +1,8 @@
 /**
- * @file JacobAriusPattonView.cpp
+ * @file LeftView.cpp
  * @author Jacob Patton
  */
- 
+#include "pch.h"
 #include "LeftView.h"
 /**
  * Initialize the aquarium view class.

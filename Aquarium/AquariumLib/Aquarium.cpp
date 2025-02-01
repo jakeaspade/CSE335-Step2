@@ -1,10 +1,11 @@
 /**
  * @file Aquarium.cpp
- * @author jake_
+ * @author Jacob Patton
  */
 
 #include "pch.h"
 #include "Aquarium.h"
+using namespace std;
 
 /**
  * Draw the aquarium
@@ -26,10 +27,6 @@ void Aquarium::OnDraw(wxDC *dc)
  */
 Aquarium::Aquarium()
 {
-    mBackground = new wxBitmap(L"images/background1.png", wxBITMAP_TYPE_ANY);
-
-    // This was added by me to see if the handler is ok
-    wxLogMessage("wxWidgets supports PNG: %d", wxImage::FindHandler(wxBITMAP_TYPE_PNG) != nullptr);
-    wxLogMessage("BMP support: %d", wxImage::FindHandler(wxBITMAP_TYPE_BMP) != nullptr);
-    wxLogMessage("JPEG support: %d", wxImage::FindHandler(wxBITMAP_TYPE_JPEG) != nullptr);
+    mBackground = make_unique<wxBitmap>(
+             L"images/background1.png", wxBITMAP_TYPE_ANY);
 }

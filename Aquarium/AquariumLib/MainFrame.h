@@ -1,6 +1,6 @@
 /**
 * @file MainFrame.h
- * @author your_name_here
+ * @author Jacob Patton
  *
  * The top-level (main) frame of the application
  */

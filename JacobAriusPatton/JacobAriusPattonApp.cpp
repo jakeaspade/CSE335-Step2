@@ -2,9 +2,8 @@
 * @file JacobAriusPattonApp.cpp
  * @author Jacob Patton
  */
-
-#include "JacobAriusPattonApp.h"
 #include "pch.h"
+#include "JacobAriusPattonApp.h"
 #include <MainFrame.h>
 
 /**

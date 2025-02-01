@@ -1,6 +1,6 @@
 project(JacobAriusPattonLib)
 
-set(SOURCE_FILES temp.cpp
+set(SOURCE_FILES
         pch.h
         MainFrame.cpp
         MainFrame.h
